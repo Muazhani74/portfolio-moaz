@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moaz Hany | Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Moaz Hany</a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text animate slideInUp">
+          <!-- <p>Hello, my name is</p> -->
+          <h1>Moaz Hany</h1>
+          <p><span id="typed-text"></span></p>
+          <div class="btn-group">
+            <a href="/assets/CV/Moaz-Hany-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+              <i class="fas fa-eye"></i> View CV
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-envelope"></i> Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="profile-img-container">
+          <img src="/assets/images/6.png" alt="Professional headshot of Moaz Hany"
+            class="profile-img animate slideInUp delay-1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title animate fadeIn">About Me</h2>
+
+      <div class="about-content">
+        <div class="about-text animate slideInUp">
+          <p>
+            I’m a <strong>Computer Science student</strong> at
+            <strong>Zagazig University</strong>, passionate about building
+            modern digital experiences as a
+            <strong>Frontend Developer</strong> and
+            <strong>UI/UX Designer</strong>.
+
+            <br><br>
+
+            I develop responsive and high-performance web applications using
+            <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>JavaScript</strong>, <strong>React</strong>, and
+            <strong>Firebase</strong>, while designing intuitive, accessible,
+            and visually engaging user interfaces.
+
+            <br><br>
+
+            My goal is to bridge the gap between design and development by
+            creating products that are both beautiful and functional.
+          </p>
+        </div>
+
+
+        <div class="about-skills">
+          <span class="skill-tag animate slideInUp delay-1">HTML / 5</span>
+          <!-- <span class="skill-tag animate slideInUp delay-1">HTML5</span> -->
+          <span class="skill-tag animate slideInUp delay-2">CSS3</span>
+          <span class="skill-tag animate slideInUp delay-1">JavaScript</span>
+          <span class="skill-tag animate slideInUp delay-1">ReactJS</span>
+          <span class="skill-tag animate slideInUp delay-2">Es6.js</span>
+          <span class="skill-tag animate slideInUp delay-2">Bootstrap</span>
+          <span class="skill-tag animate slideInUp delay-3">C++</span>
+          <span class="skill-tag animate slideInUp delay-3">DS & Algorithms</span>
+          <span class="skill-tag animate slideInUp delay-3">UI/UX</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title animate fadeIn">My Skills</h2>
+
+      <div class="skills-container">
+        <!-- Frontend Skills -->
+        <div class="skill-category animate slideInUp">
+          <h3>Frontend Development</h3>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>HTML / HTML5</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>CSS / CSS3</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>JavaScript / Es6.js</span>
+              <span>70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="70%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>React.js</span>
+              <span>65%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="65%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category animate slideInUp delay-1">
+          <h3>Soft Skills</h3>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Time Management</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Communication</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Problem Solving</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Teamwork</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming Skills -->
+        <div class="skill-category animate slideInUp delay-2">
+          <h3>Programming Skills</h3>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>C++</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Data Structures</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="75%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Algorithms</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <span>Git & GitHub</span>
+              <span>60%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="60%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <h2 class="section-title animate fadeIn">Education</h2>
+
+      <div class="education-timeline">
+        <!-- Education Item 1 -->
+        <div class="education-item animate slideInUp">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="education-content">
+            <span class="education-year">2023</span>
+            <h3>Ahmed Farouk hussin High School</h3>
+            <h4>Grade: 87.68% / Student</h4>
+            <!-- <p>.</p> -->
+            <!-- <div class="education-tags">
+            <span class="education-tag">Data Structures</span>
+            <span class="education-tag">Algorithms</span>
+            <span class="education-tag">Web Development</span>
+            <span class="education-tag">Database Systems</span>
+          </div> -->
+          </div>
+        </div>
+
+        <!-- Education Item 2 -->
+        <div class="education-item animate slideInUp delay-1">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="education-content">
+            <span class="education-year">2023 – Expected 2027</span>
+            <h3>Bachelor's in Computers and Informatics</h3>
+            <h4>Zagazig University</h4>
+            <p>
+              Studying core subjects in computer science and informatics including
+              programming fundamentals, data structures, algorithms, databases,
+              and software engineering.
+            </p>
+            <div class="education-tags">
+              <span class="education-tag">C++</span>
+              <span class="education-tag">Data Structures</span>
+              <span class="education-tag">Algorithms</span>
+              <span class="education-tag">Databases</span>
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Education Item 3 -->
+        <div class="education-item animate slideInUp delay-2">
+          <div class="education-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="education-content">
+            <span class="education-year">2025</span>
+            <h3>Frontend Development Training Program</h3>
+            <h4>Information Technology Institute (ITI)</h4>
+            <p>
+              Completed an intensive training program covering modern frontend
+              technologies including HTML5, CSS3, JavaScript, React.js,
+              responsive web design, and version control using Git & GitHub.
+            </p>
+            <div class="education-tags">
+              <span class="education-tag">HTML5</span>
+              <span class="education-tag">CSS3</span>
+              <span class="education-tag">JavaScript</span>
+              <span class="education-tag">React.js</span>
+              <span class="education-tag">Es6.Script</span>
+              <span class="education-tag">Responsive Design</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates-section">
+    <div class="container">
+      <h2 class="section-title animate fadeIn">My Certificates</h2>
+
+      <div class="certificates-grid">
+        <!-- Certificate 1 -->
+        <div class="certificate-card animate slideInUp">
+          <img src="/assets/certificates/10.jpeg" alt="Frontend Development Certification from ITI" class="certificate-img" />
+          <div class="certificate-info">
+            <h3>Frontend Development</h3>
+            <p>ITI - 2025</p>
+            <a href="/assets/images/iti.jpeg" target="_blank" class="btn btn-primary">
+              <i class="fas fa-eye"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="certificate-card animate slideInUp delay-1">
+          <img src="/assets/certificates/22.jpeg" alt="Algorithms Certification from Udemy" class="certificate-img" />
+          <div class="certificate-info">
+            <h3>Algorithms & Data Structures</h3>
+            <p>Udemy - 2025</p>
+            <a href="/assets/certificates/algorithms.pdf" target="_blank" class="btn btn-primary">
+              <i class="fas fa-eye"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="certificate-card animate slideInUp delay-2">
+          <img src="/assets/images/mahara.png" alt="HTML & CSS Certification" class="certificate-img" />
+          <div class="certificate-info">
+            <h3>HTML & CSS</h3>
+            <p>Coursera – 2025</p>
+            <a href="/assets/certificates/Course_Certificate_En (1).pdf" target="_blank" class="btn btn-primary">
+              <i class="fas fa-eye"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title animate fadeIn">My Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card animate slideInUp">
+          <img src="/assets/images/fashion.png" alt=" e-commerce website interface" class="project-img" />
+          <div class="project-info">
+            <h3>Fashion Store</h3>
+
+            <p>
+              A modern e-commerce website built using <strong>HTML</strong>,
+              <strong>CSS</strong>, and <strong>JavaScript</strong>, fully
+              connected to <strong>Firebase</strong> for real-time product
+              management and order tracking. <br /><br />
+              It features dynamic product listing, search and filter options,
+              cart functionality, Google authentication, and an admin
+              dashboard.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">netlify</span>
+              <span class="project-tag">Firebase</span>
+            </div>
+
+            <div class="project-links">
+              <!-- <a href="#" class="btn btn-secondary">
+                <i class="fab fa-github"></i> Code
+              </a> -->
+              <a href="https://beta-market.netlify.app/" class="btn btn-primary">
+                <i class="fas fa-external-link-alt"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card animate slideInUp delay-1">
+          <img src="/assets/images/downlo.png" alt="Contact management system interface" class="project-img" />
+          <div class="project-info">
+            <h3>Contact Book</h3>
+
+            <p>
+              A contact management system built using core Data Structures
+              like linked lists and arrays.
+              <br /><br />
+              It allows users to add, delete, search, and update contacts
+              efficiently.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">Data Structures</span>
+              <span class="project-tag">Algorithms</span>
+            </div>
+
+            <div class="project-links">
+              <!-- <a href="#" class="btn btn-secondary">
+                <i class="fab fa-github"></i> Code
+              </a> -->
+              <a href="#" class="btn btn-primary">
+                <i class="fas fa-external-link-alt"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card animate slideInUp delay-2">
+          <img src="/assets/images/images (1).jpeg" alt="Quran Playlist" class="project-img" />
+          <div class="project-info">
+            <h3>Quran Playlist</h3>
+
+            <p>
+              A <strong>Quran Playlist</strong> web project built with
+              <strong>HTML, CSS, and JavaScript</strong>. <br /><br />
+              Features include audio controls (play, pause, next, previous, stop, mute,
+              and volume control) with a clean and user-friendly design to listen to
+              Quran Surahs easily.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <!-- <a href="" class="btn btn-secondary" target="_blank">
+        <i class="fab fa-github"></i> Code
+      </a> -->
+              <a href="https://quraanplaylist.netlify.app" class="btn btn-primary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title animate fadeIn">Get In Touch</h2>
+
+      <div class="contact-content">
+        <div class="contact-info animate slideInUp">
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-text">
+              <h3>Email</h3>
+              <a href="mailto:mo132005@gmail.com">mo132005@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info-text">
+              <h3>Phone</h3>
+              <a href="tel:+201203852631">+20 120 385 2631</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-text">
+              <h3>Location</h3>
+              <span>Mit Ghamr, Dakahlia</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Muazhani74" target="_blank" aria-label="GitHub" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/moaz-hany" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/moaz.hani.204018" target="_blank" aria-label="Facebook"
+              rel="noopener noreferrer">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com/muaz.hani" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+
+
+        <form id="contactForm" class="contact-form animate slideInUp delay-1">
+
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="form-control" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com/Muazhani74" target="_blank" aria-label="GitHub" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/moaz-hany" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/moaz.hani.204018" target="_blank" aria-label="Facebook"
+            rel="noopener noreferrer">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://instagram.com/muaz.hani" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <p class="copyright">
+          &copy; <span id="year"></span> Moaz Hany. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // عرض السنة الحالية تلقائياً في الفوتر
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+
+  <script src="script.js"></script>
+  <!-- Firebase App (the core Firebase SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+
+  <!-- Firebase Realtime Database SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+  <script>
+    // Paste your Firebase config here
+    const firebaseConfig = {
+      apiKey: "AIzaSyC6rknAcTRAdAr4IgeM8iiokPYWdOPK3eY",
+      authDomain: "moaz-portfolio.firebaseapp.com",
+      projectId: "moaz-portfolio",
+      storageBucket: "moaz-portfolio.firebasestorage.app",
+      messagingSenderId: "822900674037",
+      appId: "1:822900674037:web:f2955b85b5e97c4380e4bc",
+      measurementId: "G-3ZB58FCSTL"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const database = firebase.database();
+  </script>
+
+
+</body>
+
+</html>
