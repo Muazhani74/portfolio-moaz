@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muazhani74.github.io/portfolio-moaz/sitemap.xml
